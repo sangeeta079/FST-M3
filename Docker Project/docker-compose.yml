@@ -9,7 +9,7 @@ services:
   api:
     depends_on:
       - postgres
-    image: axelsilverdew/simple-api:latest
+    image: sangeeta079/simple-api:latest
     ports:
       - '3000:3000'
     environment:
